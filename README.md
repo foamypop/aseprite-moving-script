@@ -3,13 +3,14 @@ Because aseprite doesn't include a feature to move groups or multiple layers at 
 
 _________________________________________________________________
 ### The Script
-![image](https://i.imgur.com/RCh7dlD.png)
 
 *The script's UI menu.*
+![image](https://i.imgur.com/RCh7dlD.png)
 
-![image](https://i.imgur.com/TmXDvay.png)
+_________________________________________________________________
 
 *Three available modes for moving.*
+![image](https://i.imgur.com/TmXDvay.png)
 
 _________________________________________________________________
 ### Links
