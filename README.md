@@ -5,11 +5,13 @@ _________________________________________________________________
 ### The Script
 
 *The script's UI menu.*
+
 ![image](https://i.imgur.com/RCh7dlD.png)
 
 _________________________________________________________________
 
 *Three available modes for moving.*
+
 ![image](https://i.imgur.com/TmXDvay.png)
 
 _________________________________________________________________
