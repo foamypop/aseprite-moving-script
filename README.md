@@ -1,0 +1,2 @@
+# aseprite moving script
+
