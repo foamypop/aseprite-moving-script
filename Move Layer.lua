@@ -3,7 +3,7 @@
 	or all of the selected group's layers.
 --]]
 local dlg = Dialog("Move Selection"); -- dialogue object
--- Function Definition
+-- Function Definition --
 -- send an error alert easily
 local function err(msg)
 	return app.alert{title="Error", text=msg, buttons="OK" };
@@ -40,10 +40,6 @@ local move = function()
       return err("No active layers");
 	end
 	
-	-- logic to check if the layer's parent is a group or the sprite
-	--local parent = layer.parent
-    --local not_in_group = not parent or parent == layer.sprite;
-	
 	-- test the mode selected
 	if(selected_mode == "Group") then
 		-- group mode, but the layer isnt a group
@@ -65,7 +61,7 @@ local move = function()
 	end
 	
 end
--- Dialogue Creation=
+-- Dialogue Creation --
 dlg
 :separator("Move")
 :number{ id="dx", text="0" }
