@@ -6,7 +6,7 @@ local dlg = Dialog("Move Selection"); -- dialogue object
 -- Function Definition --
 -- send an error alert easily
 local function err(msg)
-	return app.alert{title="Error", text=msg, buttons="OK" };
+	return app.alert{ title="Error", text=msg, buttons="OK" };
 end
 -- move all layers within a layer (good for groups)
 local function recursive_move(v, dx, dy, visible_only)
@@ -52,7 +52,7 @@ local move = function()
 		end
 	elseif (selected_mode == "Visible Layers") then
 		-- all visible layers in the sprite mode
-		for i,v in ipairs(sprite.layers) do
+		for _,v in ipairs(sprite.layers) do
 			recursive_move(v, dx, dy, true)
 		end
 	else -- Active Layer
